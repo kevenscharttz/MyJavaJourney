@@ -4,7 +4,7 @@ Este repositório foi criado com o propósito de armazenar e compartilhar minha 
 
 Tudo isso está me sendo proporcionado graças à Dio, uma plataforma de cursos de tecnologia na qual obtive uma bolsa para realizar esse curso.
 
-## Estrutura do Repositório 📃
+## Estrutura 📃
 
 ## Considerações 🔎
 Caso este repositório não seja o suficiente, ou não lhe ajude em uma totalidade a entender os conceitos contidos, recomendo fortemente que acesse a plataforma da [Dio](https://web.dio.me/), onde estou estudando.
