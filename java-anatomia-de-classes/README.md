@@ -8,7 +8,7 @@ A escrita de códigos de um programa é feita através da composição de palavr
 
 ``` 
 Public class MinhaClase{
-<font color=\"green\">//seu código aqui<\font>
+  //seu código aqui<\font>
 }
 ```
 
