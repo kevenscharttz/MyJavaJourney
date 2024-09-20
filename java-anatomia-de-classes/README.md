@@ -1,4 +1,3 @@
-
 # Aprendendo Sintaxe Java ☕
 A escrita de códigos de um programa é feita através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome dos nossos atquivos, classes, atributos e métodos.
 
@@ -25,3 +24,61 @@ Para teste, podemos criar uma classe system dentro dessa classe main, cuja a fun
 System.out.print("Hello World");
 ```
 
+## Padrões de Nomeclaturas ✍️
+Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de nomenclatura. Esses padrões estão expressos nos tópicos abaixo:
+
+* **Arquivo .java:** Todo arquivo *.java* deve começar com a letra **MAIÚSCULA**, se houver mais palavras, elas também deverão começar com a letra maiúscula:
+
+```
+// arquivo CalculadoraCientifica.java
+
+public class CalculadoraCientifica{
+
+}
+```
+
+**Nome de variáveis:** Toda variável deve ser escrita com letra **MINÚSCULA**, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser **MAIÚSCULA**, o nome desse tipo de prática para nomear variáveis dessa forma se chama "camelCase"
+
+Existe uma regra adicional para variáveis quando queremos identificar que ela não 
+sofrerá alteração de valor, por exemplo, queremos determinar que uma variável de nome 'br'
+sempre representará "Brasil" e nunca mudará seu valor, logo, determinasse como abaixo
+
+```
+public class NomeclaturasJava {
+    
+    public static void main(String[] args) {
+        String BR = "Brasil";
+        double PI = 3.14;
+        int ESTADOS_BRASILEIROS = 27;
+        int ANO_2000 = 2000;
+    }
+```
+
+## Boas Práticas para Nomear Variáveis 💎
+
+* Conter apenas letras, números, _(underline) e $(sifrão);
+* Começar com letras(preferencialmente), ou _ / $, jamais com números;
+* Não conter espaços;
+* Sem palavras chave/reservadas;
+* Nome único no escopo.
+
+```
+public class NomeclaturasJava {
+    
+    public static void main(String[] args) {
+        
+        //declarações inválidas
+
+        int numero&um = 1; // Usar apenas _ e $
+        int 1numero = 1; // Não começar com número
+        int numero um = 1; // Não conter espaços
+        int long = 1; // Não usar palavras chave/reservadas
+
+        //declarações válidas
+
+        int numero$um = 1;
+        int numero1 = 1;
+        int numeroum = 1;
+        int longo = 1;
+    }
+```
