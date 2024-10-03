@@ -1,4 +1,4 @@
-public class NomeclaturasJava {
+public class Nomeclaturas {
     
     public static void main(String[] args) {
         
