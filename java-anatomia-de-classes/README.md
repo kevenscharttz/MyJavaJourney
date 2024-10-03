@@ -82,3 +82,36 @@ public class NomeclaturasJava {
         int longo = 1;
     }
 ```
+## Declaração de Variaveis e métodos 🛠️
+
+Como identificar o que é o que entre declarações de variáveis e métodos em nosso programa? Existe uma estrutura comum para ambas as finalidades. Vamos explorar cada uma:
+
+* Declarar uma variavel em Java segue sempre a seguinte estrutura:
+
+```
+//estrutura
+
+    tipo nomeBemDefinido = atribuição (opcional em alguns casos)
+
+//exemplo
+
+    int idade = 23;
+    double altura = 1.80;
+    String nome = "Keven";
+
+    dog spike; //observe que aqui a variavel não tem valor, por que? (exercicio mental)
+```
+
+* Declaração de métodos em Java segue uma estrutura bem simples:
+
+```
+//estrutura
+
+    tipoRetorno nomeObjetivoNoInfinitivo parametro(s)
+
+//exemplo
+
+    int somar(int numeroUm, int numeroDois)
+    String formatarCep(long cep)
+```
+
