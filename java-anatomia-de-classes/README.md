@@ -114,4 +114,49 @@ Como identificar o que é o que entre declarações de variáveis e métodos em 
     int somar(int numeroUm, int numeroDois)
     String formatarCep(long cep)
 ```
+## Identação ⛓️
+Basicamente indentar é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
+
+Abaixo, veja um exemplo de um algoritmo de validação de aprovação de uma estudante. Em uma aba, temos um código sem identação nenhuma, na outra aba, temos o mesmo código seguindo um padrão de identação. Observe como é muito mais fácil entender a hierarquia do código na segunda aba:
+
+* Não identado
+
+```java
+//aquivo BoletimEstudantil.java
+
+public class BoletimEstudantil {
+public static void main(String[] args) {
+int mediaFinal = 6;
+if(mediaFinal<6){
+System.out.println("REPROVADO");    
+}
+else if(mediaFinal==6){
+System.out.println("PROVA MINERVA");
+}
+else{
+System.out.println("APROVADO"); 
+}
+}
+}
+```
+* Identado
+
+```java
+//aquivo BoletimEstudantil.java | IDENTADO
+
+public class BoletimEstudantil {
+    public static void main(String[] args) {
+        int mediaFinal = 6;
+        if(mediaFinal<6){
+            System.out.println("REPROVADO");    
+        }
+        else if(mediaFinal==6){
+            System.out.println("PROVA MINERVA");
+        }
+        else{
+            System.out.println("APROVADO"); 
+        }
+    }
+}
+```
 
