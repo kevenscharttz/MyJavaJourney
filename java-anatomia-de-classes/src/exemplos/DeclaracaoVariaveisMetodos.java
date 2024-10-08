@@ -1,3 +1,4 @@
+package exemplos;
 public class DeclaracaoVariaveisMetodos {
     public static void main(String[] args) {
 

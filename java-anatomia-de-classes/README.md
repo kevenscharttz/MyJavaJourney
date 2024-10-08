@@ -159,4 +159,50 @@ public class BoletimEstudantil {
     }
 }
 ```
+## Java Beans 🫘
+
+Uma das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+
+
+### Variaveis
+
+Mais cedo já aprendemos algumas regras de declaração de variaveis, mas agora iremos conhecer algumas sugestões de nomeclatura:
+
+* Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+* Uma variável é sempre no singular, **exceto quando de referir a um array ou coleção**;
+* Defina um idioma único para suas variáveis. Se você declarar variáveis em inglês, defina todas em inglês.
+
+Não recomendado
+
+```Java
+double salMedio = 1500.23; // variável abreviada
+String emails = "aluno@escola.com"; // confuso, a variável está no plural mas remete a apenas um valor
+String myName = "ANDREW"; //se o idioma é pt-BR, o valor deve ser também.
+
+```
+
+recomendado
+```java
+double salarioMedio = 1500.23;
+String [] emails = {aluno@escola.com, "professor@escola.com"};
+String meuNome = "ANDRÉ";
+```
+
+### Métodos
+
+Os métodos deverão se nomeador como verbos, através de um mistura de letras minúscular e maiúsculas. Em preincípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
+Exemplos sugeridos para nomeclatura de métodos:
+
+```java
+somar(int n1, int n2){}
+
+abrirConexao(){}
+
+concluirProcessamento(){}
+
+findById(int id){}
+
+calcularImprimir(){} //Preste atenção, apesar dele estar escrito corretamente, qual a função desse método? Calcular ou imprimir? Pois é.
+```
 
