@@ -7,7 +7,7 @@ Tudo isso está me sendo proporcionado graças à Dio, uma plataforma de cursos 
 ## Estrutura 📃
 O repositório está organizado de forma a facilitar a navegação e o entendimento dos diferentes tópicos abordados ao longo do aprendizado. Abaixo está a descrição da estrutura de diretórios e arquivos:
 
-* [CONTEÚDO DE ESTUDO](./conteudo-de-estudo) - Reune todos os meus estudos de JAVA
+* [CONTEÚDO DE ESTUDO](./sintaxe-basica-com-java/) - Reune a informação basica do Java, para começar a trabalhar com essa linguagem
 
 ## Considerações 🔎
 Caso este repositório não seja o suficiente, ou não lhe ajude em uma totalidade a entender os conceitos contidos, recomendo fortemente que acesse a plataforma da [Dio](https://web.dio.me/), onde estou estudando.
