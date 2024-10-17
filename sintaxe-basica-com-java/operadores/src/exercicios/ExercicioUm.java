@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Exercicio {
+public class ExercicioUm {
     public static void main(String[] args){
         String nomeCompleto = "LINGUAGEM" + "JAVA";
         String concatenacao = "?";

@@ -19,8 +19,5 @@ public class AtribuicaoVariaveis {
         int divisao = 15 / 3;
         int modulo = 18 % 3; //é uma forma de verificacao, para saber se a divisao da expressao resultara em um numero fracionado, no caso, se terá "resto".
         double resultado = (10 * 7) + (20 / 4);
-
-
-        
     }
 }
