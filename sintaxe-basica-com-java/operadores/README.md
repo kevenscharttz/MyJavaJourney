@@ -29,7 +29,7 @@ int modulo = 18 % 3;
 double resultado = (10 * 7) + (20 / 4);
 ```
 
-## Operadores Unários
+## Operadores Unários 🔢
 
 Esses operadores são aplicados juntamente com um outro operador aritmético. Eles realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos e booleanos.
 
@@ -50,4 +50,35 @@ numero++;
 System.out.println(numero);
 
 System.out.println(++numero);
+```
+
+## Operadores Ternários ⁉️
+
+O Operador de Condição Ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
+
+O operador ternário é representado pelos símbolos **?**: utilizados na seguinte estrutura de sintaxe:
+
+```java
+public class OperadorTernario {
+    public static void main(String[] args){
+        int a, b;
+
+        a = 5;
+        b = 6;
+
+        /* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+        if(a==b){
+        resultado = "verdadeiro";
+        }
+        else{
+        resultado = "falso";
+        }
+        */
+
+        //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
+         String resultado = (a==b) ? "verdadeiro" : "false";
+
+        System.out.println(resultado);
+    }
+}
 ```
