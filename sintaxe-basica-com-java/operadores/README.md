@@ -91,16 +91,16 @@ Os operadores relacionais avaliam a relação entre duas variáveis ou expressõ
 
 * != Quando desejamos verificar se uma variável é DIFERENTE da outra.
 
-* > Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+* \> Quando desejamos verificar se uma variável é MAIOR QUE a outra.
 
-* >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+* \>= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
 
 * < Quando desejamos verificar se uma variável é MENOR QUE outra.
 
 * <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
 
 ```java
-//classe OperadorTernario.java
+//classe OperadoresRelacionais.java
 int numero1 = 1;
 int numero2 = 2;
 
