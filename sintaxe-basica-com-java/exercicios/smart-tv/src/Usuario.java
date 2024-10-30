@@ -10,21 +10,18 @@ public class Usuario {
         }
         System.out.println("Canal atual: " + smartTv.canal);
         System.out.println("Volume atual: " + smartTv.volume);
-
-        System.out.println("\nEstado atual: ");
         smartTv.ligar();
         smartTv.aumentarVolume();
-        System.out.println("Tv está ligada? " + smartTv.ligada);
-        System.out.println("Volume atual: " + smartTv.volume);
-
-        System.out.println("\nEstado atual: ");
-
         smartTv.desligar();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
+        smartTv.aumentarVolume();
+        smartTv.escolherCanal(13);
+        System.out.println("\nEstado atual: ");
         System.out.println("Tv está ligada? " + smartTv.ligada);
         System.out.println("Volume atual: " + smartTv.volume);
+        System.out.println("Canal atual: " + smartTv.canal);
     }
-}.
+}
