@@ -112,3 +112,23 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 
 ## Literais reservados
 De acordo com a Java Language Specification, null, true e false são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
+
+## Escopo de uso
+
+| Uso | Palavras | Observação |
+| -------- | ----- | ----------- |
+| Arquivo | package, import, static |  |
+| Classe | public ou protected ou private + final ou abstract + extends ou implements | private (em caso de classe interna), final ou abstract ? |
+| Método | public ou protected ou private + static ou final ou abstract + void e return | void em caso de não ter retorno ou return se houver |
+| Atributo | public ou protected ou private + static ou final + tipo primitivo | **** |
+
+
+## Palavras "opostas"
+Assim como nas classificações gramaticais da língua portuguesa, existem algumas palavras que são completamente opostas (antônimas) na linguagem Java conforme tabela abaixo:
+
+| Uso       | Palavras                             | Observação                                                              |
+|-----------|-------------------------------------|-------------------------------------------------------------------------|
+| Arquivo   | package, import                     | Enquanto package determina o diretório real da classe, o import informa de onde será importada a classe. Isso é importante para evitar conflitos de nomes. |
+| Classe    | extends, implements                 | Enquanto extends determina que uma classe estende outra classe, implements indica que uma classe implementa uma interface, mas nunca o contrário. |
+| Método    | final, abstract                     | Enquanto final impede alterações de valor ou lógica, abstract em métodos exige que subclasses definam o comportamento, tornando o método abstrato. Nota: se uma classe contém um único método abstrato, toda a classe precisa ser abstrata. |
+| Exceção   | throws, throw                       | Throws indica que um método pode lançar uma exceção, enquanto throw é a implementação que dispara a exceção. Essa distinção é fundamental para a compreensão de exceções. |
